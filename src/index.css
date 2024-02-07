@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;1,100;1,200&family=Poppins:wght@300;400;900&family=Raleway:wght@100&family=Roboto:wght@100;300;400;700&display=swap');
+html{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 0.1px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+*, *:before, *:after {box-sizing: inherit;}  
+
+:root{
+  --primary:#000;
+  --secondary: rgb(24 24 27);
+  --title: rgb(244,244,245);
+  --subtitle:rgb(161,161,170);
+  --border: rgba(63,63,70,0.4);
+  --bgheader:rgb(39,39,42);
+  --blue: rgb(93, 188, 252);
+  --icon-hover: #d4d4d8;
+  --container-padding: 4.8rem;
+
+}
+.light{
+  --primary:#fff;
+
+}
+
+body{
+  background-color: var(--primary);
+  color: var(--title);
+}
+.container{
+  border: 2px solid var(--border);
+  width: 80%;
+  margin: auto;
+  background-color: var(--secondary);
+  padding: 0 4.8rem;
+}
+.line{
+  border-bottom: 1px solid var(--border);
+  margin: 3rem 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: initial;
+  transition: 0.2s;
+}
+a:hover{
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.border{
+  border: 2px solid red;
+}
+button {all: unset;}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+   scale:0.9;
+}
+
+
+
+
+
+
+@media(max-width:768px){
+  .container{
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
