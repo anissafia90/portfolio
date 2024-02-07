@@ -8,6 +8,7 @@ export default function Header() {
           setshowModal(true);
         }} />
       <div />
+      <div />
       <nav>
         <ul className="flex">
 
@@ -17,6 +18,7 @@ export default function Header() {
           <li><a href="">Speaking</a></li>
           <li><a href="">Contact</a></li>
         </ul>
+        <div />
       </nav>
       
    {showModal &&   <div className='fixed'>
@@ -33,6 +35,7 @@ export default function Header() {
       </ul>
    
   </div> }
+     
     </header>
   )
 }
