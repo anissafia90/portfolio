@@ -81,4 +81,20 @@ export const myProjects = [
       github: "https://github.com/anissafia90/results-summary-component",
       link:"https://anissafia90.github.io/results-summary-component/",
     },
+    {
+      id : 11,
+      projectTitle: "faq-accordion-main",
+      category: ["js"],
+      imgPath: "./images/faq-accordion-main.png",
+      github: "https://github.com/anissafia90/faq-accordion-main",
+      link:"https://anissafia90.github.io/faq-accordion-main/",
+    },
+    {
+      id : 12,
+      projectTitle: "E-commerce-product-page",
+      category: ["js"],
+      imgPath: "./images/E-commerce-product-page.png",
+      github: "https://github.com/anissafia90/E-commerce-product-page",
+      link:"https://anissafia90.github.io/E-commerce-product-page/",
+    },
   ];
