@@ -129,4 +129,12 @@ export const myProjects = [
       github: "#",
       link:"https://newstateqa.com/",
     },
+      {
+      id : 17,
+      projectTitle: "reminder-time",
+      category: ["react"],
+      imgPath: "./images/",
+      github: "https://github.com/anissafia90/reminder-time",
+      link:"https://reminder-time.netlify.app/",
+    },
   ];
