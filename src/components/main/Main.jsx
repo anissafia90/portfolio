@@ -58,7 +58,14 @@ const Main = () => {
         >
           React
         </button>
-        
+        <button
+          onClick={() => {
+            handleClick("wordpress");
+          }}
+          className={currentActive === "wordpress" ? "active" : null}
+        >
+          wordpress
+        </button>
       </section>
 
       <section className="flex right-section">
