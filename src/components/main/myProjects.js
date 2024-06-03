@@ -97,4 +97,20 @@ export const myProjects = [
       github: "https://github.com/anissafia90/E-commerce-product-page",
       link:"https://anissafia90.github.io/E-commerce-product-page/",
     },
+    {
+      id : 13,
+      projectTitle: "zaineb Sud",
+      category: ["wordpress"],
+      imgPath: "",
+      github: "#",
+      link:"https://zaineb-sud.me/",
+    },
+    {
+      id : 14,
+      projectTitle: "weather-app",
+      category: ["react"],
+      imgPath: "",
+      github: "https://github.com/anissafia90/Weather-Application",
+      link:"https://weather-app-anis.netlify.app/",
+    },
   ];
